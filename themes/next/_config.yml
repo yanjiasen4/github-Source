@@ -85,7 +85,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: //fonts.useso.com
 
   # Global font settings used on <body> element.
   global:
@@ -117,7 +117,7 @@ font:
   codes:
     external: true
     family:
-    size: 11
+    size: 12
 
 
 
