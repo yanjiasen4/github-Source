@@ -50,7 +50,7 @@ Dota2这次为我们开放的接口需要我们对一些Lua脚本进行编写。
 ![pic2](http://ohvmg8dgt.bkt.clouddn.com/dota2_pic1.png)  
 
 前面说到，你可以只实现一部分AI，让默认的AI完成剩下的工作。比如上图第二和第三个.lua文件就分别是莉娜和斯温的技能与物品释放脚本。
-而如果想完全重写（compelete takeover），也很简单，把以_generic.lua结尾的文件中的相应函数实现即可。  
+而如果想完全重写（compelete takeover），也很简单，把以`hero_generic.lua`文件中的Think函数实现即可，而只重写某个英雄的则是将`bot_英雄名.lua`的文件中的相应函数实现即可。  
 
 类似的，几类文件构成了整个Dota2的Bot脚本：  
 * ability_item_usage_XXX.lua  物品和技能释放

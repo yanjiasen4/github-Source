@@ -142,7 +142,7 @@ void rightRotate(Node * & parent)
 		parent - > parent - > right = parent;
 	}
 }
-```  
+```
 
 如果将P提升到现在G的位置，将会变成下面这种状态。这个时候只需要对现在的祖父节点G（之前的P）和叔叔节点的颜色，
 就保证了G的两侧平衡。  
