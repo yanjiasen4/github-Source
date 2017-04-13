@@ -35,7 +35,7 @@ categories: Hobby
 5. 忘记：忘记通过记忆指令学习的词条，可以设置权限，权限在**admin.json**中配置。指令  
 `!forget key`
 6. roll：测一测你的运气，指令  
-`!roll max`
+`!rank max`
 7. 排行榜： 查看群修仙榜，指令  
 `!roll number`
 8. 开车推荐：由于开车功能所使用的图库原因，tag要求为英语或日语罗马音，且比较严格，此指令可自动推荐5个tag给乘客。指令  
